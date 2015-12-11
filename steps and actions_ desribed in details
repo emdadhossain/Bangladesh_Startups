@@ -1,0 +1,33 @@
+1. create a drawer layout - 
+  - android layout gravity- left/right. start/end- primary content is the first child, framelayout/listview. add drawers as child iews and after the main conetent view and set the layout_gravity appropriately.
+  - end/right will open from right and other vice versa.
+  - drawer is opened drawerListener is implemented.
+  - drawer position is on the right side then it have action specific on the page
+  - drawer on the left side will navigate to various pages on the drawer .
+
+   		-Declare your user interface with a DrawerLayout Object as the root view of your layout.
+
+   		-inside DrawerLayout add one view that contains the main content for the screen (your primary layout when the drawer is hidden) and another view that contains the contents of the navigation drawer.
+
+   		-the main content view is set to match the parent views width and height, because it represets the entire UI when the navigation drawer is hidden.
+
+   		-the drawer view (the listView) must specify its horizontal gravity with the android:layout_gravity attribute to support the right-to-left languages.
+
+   		- the drawer view specifies its width in dp units and the height matches the parent view. the width should not be more then 320dp. so the user can view a portion of main content. 
+
+2. initialize the drawer list.
+3. handle navigation click events
+4. Listen for drawer open and close events 
+5. Open and close with app icon.
+
+
+Android studio-
+----------------
+				
+				- install android support library first appcompat.v7 and appcompat.v4 in build path
+
+				- create a new private objecct Drawerlayout, ListView.
+
+				-use the onItemClickListener() to select the item detilas to be displayed
+
+				-

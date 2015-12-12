@@ -9,12 +9,13 @@
     <ImageView
         android:layout_width="32dp"
         android:layout_height="32dp"
+        android:layout_marginRight="2dp"
         android:id="@+id/imageView1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_margin="8dp"
-        android:gravity="center"
+        android:gravity="left"
         android:layout_height="32dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textView1"
